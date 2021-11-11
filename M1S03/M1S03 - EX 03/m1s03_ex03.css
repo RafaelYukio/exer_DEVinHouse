@@ -1,0 +1,37 @@
+#calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: solid black 1px;
+}
+
+#operacao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 200px;
+}
+
+#numero {
+    text-align: center;
+    width: 200px;
+}
+
+#botoes {
+    text-align: center;
+    width: 200px;
+}
+
+button {
+    margin: 10px 3px 0px 0px;
+    width: 40px;
+}

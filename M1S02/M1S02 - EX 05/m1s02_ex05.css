@@ -1,0 +1,14 @@
+#container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+section {
+    height: 300px;
+    width: 40%;
+    margin: 10px;
+    padding: 0;
+    float: left;
+}
