@@ -1,2 +1,2 @@
-# Exer_DEVinHouse
-Repositório para os exercícios do DEVinHouse
+# exer_DEVinHouse
+Repositório para os exercícios do DEVinHouse.
