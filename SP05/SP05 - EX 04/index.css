@@ -1,0 +1,22 @@
+form {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.container {
+	display: flex;	
+    justify-content: center;
+}
+
+.container div {
+	margin: 20px;
+}
+
+input[type="button"] {
+	width: 100px;
+}
+
+input[type="text"] {
+	margin-bottom: 10px;
+}
