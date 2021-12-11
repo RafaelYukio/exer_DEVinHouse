@@ -15,7 +15,6 @@ span {
     margin-bottom: 10px;
 }
 
-
-.cliente, .loja, .empresa {
+.dadosCliente, .cliente, .loja, .empresa {
     height: 400px;
 }
