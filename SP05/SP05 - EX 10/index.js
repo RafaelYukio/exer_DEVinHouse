@@ -26,6 +26,7 @@ function mostrarProduto(produto) {
 	let img = document.createElement("img");
 	let span1 = document.createElement("span");
 	let span2 = document.createElement("span");
+	let span3 = document.createElement("span");
 	let select = document.createElement("select");
 
 	for (i = 0; i < produto.maxParcelas; i++) {
@@ -39,11 +40,13 @@ function mostrarProduto(produto) {
 	img.height = "500";
 
 	span1.innerText = produto.nome;
-    span2.innerText = "Parcelas: ";
+	span2.innerText = "Preço: R$ " + produto.valor;
+	span3.innerText = "Parcelas: ";
 
 	div.appendChild(img);
 	div.appendChild(span1);
-    div.appendChild(span2);
+	div.appendChild(span2);
+	div.appendChild(span3);
 	div.appendChild(select);
 	document.body.appendChild(div);
 }
